@@ -1,282 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Systems Developer</title>
-  
-  <!-- Bootstrap 5 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Bootstrap Icons -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Systems Developer & Web Designer Portfolio</title>
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Skip to content for accessibility -->
+    <a href="#main-content" class="visually-hidden-focusable p-2 bg-primary text-white">Skip to main content</a>
 
-  <!-- Accessible Skip Link -->
-  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+    <!-- Header / Navbar -->
+    <header class="sticky-top bg-body border-bottom shadow-sm">
+        <nav class="navbar navbar-expand-lg py-3">
+            <div class="container">
+                <a class="navbar-brand fw-bold text-primary" href="#">DevPortfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav gap-lg-3">
+                        <li class="nav-item"><a class="nav-link active fw-semibold" href="#hero">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-  <!-- Header & Navigation -->
-  <header>
-    <nav class="navbar navbar-expand navbar-dark fixed-top py-3">
-      <div class="container">
-        <a class="navbar-brand fw-bold fs-4" href="#home">Portfolio.</a>
-        <div class="navbar-nav ms-auto gap-2 gap-md-4">
-          <a class="nav-link active" href="#home">Home</a>
-          <a class="nav-link" href="#about">About Me</a>
-          <a class="nav-link" href="#projects">Projects</a>
-          <a class="nav-link" href="#contact">Contact</a>
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section text-white d-flex align-items-center text-center position-relative py-5">
+            <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div>
+            <div class="container position-relative z-1 py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <span class="badge bg-primary bg-opacity-75 text-light px-3 py-2 rounded-pill mb-3 text-uppercase tracking-wider">Systems Developer & Web Designer</span>
+                        <h1 class="display-4 fw-bold mb-3">Building Scalable & Responsive Web Experiences</h1>
+                        <p class="lead text-light mb-4 opacity-87">Crafted with precision using semantic HTML5, Bootstrap 5, and custom CSS. Zero JavaScript overhead, maximum performance.</p>
+                        <div class="d-flex justify-content-center gap-3">
+                            <a href="#projects" class="btn btn-primary btn-lg rounded-pill px-4">View Projects</a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-4">Get in Touch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-5 bg-body-tertiary">
+            <div class="container py-4">
+                <div class="row justify-content-center mb-5 text-center">
+                    <div class="col-lg-6">
+                        <span class="badge bg-primary-subtle text-primary px-3 py-1 rounded-pill mb-2 fw-semibold">About Me</span>
+                        <h2 class="fw-bold">Developer & Designer Profile</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="card border-0 shadow-sm rounded-4 p-4 p-lg-5 bg-body">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 text-center">
+                                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=500" alt="Profile Picture" class="rounded-circle img-fluid shadow-sm profile-img mb-3">
+                                    <h5 class="fw-bold mb-1">Alex Morgan</h5>
+                                    <p class="text-muted small mb-3">Systems Developer</p>
+                                    <div class="d-flex flex-wrap justify-content-center gap-2">
+                                        <span class="badge bg-secondary-subtle text-secondary px-2 py-1">HTML5</span>
+                                        <span class="badge bg-secondary-subtle text-secondary px-2 py-1">CSS3</span>
+                                        <span class="badge bg-secondary-subtle text-secondary px-2 py-1">Bootstrap 5</span>
+                                        <span class="badge bg-secondary-subtle text-secondary px-2 py-1">Python</span>
+                                        <span class="badge bg-secondary-subtle text-secondary px-2 py-1">Git</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h3 class="h4 fw-bold mb-3">Passionate about clean architecture and high-performance design.</h3>
+                                    <p class="text-secondary mb-3">I specialize in building modular, accessible user interfaces and robust systems solutions. My academic focus in systems development ensures every project balances pristine visual design with efficient underlying structure.</p>
+                                    <p class="text-secondary mb-4">Committed to writing semantic markup, optimizing layout scalability across devices, and maintaining top-tier performance standards without unnecessary framework bloat.</p>
+                                    <a href="#contact" class="btn btn-outline-primary rounded-pill px-4">Let's Connect</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-5">
+            <div class="container py-4">
+                <div class="row justify-content-center mb-5 text-center">
+                    <div class="col-lg-6">
+                        <span class="badge bg-primary-subtle text-primary px-3 py-1 rounded-pill mb-2 fw-semibold">Portfolio</span>
+                        <h2 class="fw-bold">Featured Projects & Clones</h2>
+                        <p class="text-muted">Fully responsive implementations built with CSS grid and Bootstrap 5.</p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <!-- Project 1: Tesla Clone -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
+                            <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=600" class="card-img-top project-banner" alt="Tesla Clone">
+                            <div class="card-body d-flex flex-column p-4">
+                                <h3 class="h5 card-title fw-bold mb-1">Tesla Site Clone</h3>
+                                <p class="small text-muted mb-3">Automotive UI Layout</p>
+                                <p class="card-text text-secondary small mb-4 flex-grow-1">Responsive hero showcase replicating electric vehicle model variants and clean navigation.</p>
+                                <div class="d-flex align-items-center justify-content-between gap-2 mt-auto">
+                                    <a href="#" class="btn btn-primary rounded-pill px-3 flex-grow-1">View Website</a>
+                                    <a href="#" class="btn btn-outline-secondary rounded-circle icon-btn" aria-label="Source code"><i class="bi bi-code-slash"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2: Netflix Clone -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
+                            <img src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?auto=format&fit=crop&q=80&w=600" class="card-img-top project-banner" alt="Netflix Clone">
+                            <div class="card-body d-flex flex-column p-4">
+                                <h3 class="h5 card-title fw-bold mb-1">Netflix Stream UI</h3>
+                                <p class="small text-muted mb-3">Streaming Platform Grid</p>
+                                <p class="card-text text-secondary small mb-4 flex-grow-1">Dark-themed card carousels and cinematic hero banners for media discovery.</p>
+                                <div class="d-flex align-items-center justify-content-between gap-2 mt-auto">
+                                    <a href="#" class="btn btn-primary rounded-pill px-3 flex-grow-1">View Website</a>
+                                    <a href="#" class="btn btn-outline-secondary rounded-circle icon-btn" aria-label="Source code"><i class="bi bi-code-slash"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3: YouTube Clone -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
+                            <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=600" class="card-img-top project-banner" alt="YouTube Clone">
+                            <div class="card-body d-flex flex-column p-4">
+                                <h3 class="h5 card-title fw-bold mb-1">YouTube Portal</h3>
+                                <p class="small text-muted mb-3">Video Grid Interface</p>
+                                <p class="card-text text-secondary small mb-4 flex-grow-1">Multi-column video thumbnail layout with sidebar navigation and metadata cards.</p>
+                                <div class="d-flex align-items-center justify-content-between gap-2 mt-auto">
+                                    <a href="#" class="btn btn-primary rounded-pill px-3 flex-grow-1">View Website</a>
+                                    <a href="#" class="btn btn-outline-secondary rounded-circle icon-btn" aria-label="Source code"><i class="bi bi-code-slash"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 4: Developer Hub -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600" class="card-img-top project-banner" alt="Developer Hub">
+                            <div class="card-body d-flex flex-column p-4">
+                                <h3 class="h5 card-title fw-bold mb-1">Developer Hub</h3>
+                                <p class="small text-muted mb-3">Documentation UI</p>
+                                <p class="card-text text-secondary small mb-4 flex-grow-1">Clean technical reference dashboard with code blocks and sidebar index.</p>
+                                <div class="d-flex align-items-center justify-content-between gap-2 mt-auto">
+                                    <a href="#" class="btn btn-primary rounded-pill px-3 flex-grow-1">View Website</a>
+                                    <a href="#" class="btn btn-outline-secondary rounded-circle icon-btn" aria-label="Source code"><i class="bi bi-code-slash"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 5: SaaS Analytics -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600" class="card-img-top project-banner" alt="SaaS Metric Tracker">
+                            <div class="card-body d-flex flex-column p-4">
+                                <h3 class="h5 card-title fw-bold mb-1">SaaS Analytics</h3>
+                                <p class="small text-muted mb-3">Metric Dashboard</p>
+                                <p class="card-text text-secondary small mb-4 flex-grow-1">Data visualization card layouts tracking conversion rates and user growth metrics.</p>
+                                <div class="d-flex align-items-center justify-content-between gap-2 mt-auto">
+                                    <a href="#" class="btn btn-primary rounded-pill px-3 flex-grow-1">View Website</a>
+                                    <a href="#" class="btn btn-outline-secondary rounded-circle icon-btn" aria-label="Source code"><i class="bi bi-code-slash"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 6: Task Manager -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
+                            <img src="https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&q=80&w=600" class="card-img-top project-banner" alt="Task Manager UI">
+                            <div class="card-body d-flex flex-column p-4">
+                                <h3 class="h5 card-title fw-bold mb-1">Task Manager</h3>
+                                <p class="small text-muted mb-3">Productivity App</p>
+                                <p class="card-text text-secondary small mb-4 flex-grow-1">Kanban-style project board interface optimized for task prioritization.</p>
+                                <div class="d-flex align-items-center justify-content-between gap-2 mt-auto">
+                                    <a href="#" class="btn btn-primary rounded-pill px-3 flex-grow-1">View Website</a>
+                                    <a href="#" class="btn btn-outline-secondary rounded-circle icon-btn" aria-label="Source code"><i class="bi bi-code-slash"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-5 bg-body-tertiary">
+            <div class="container py-4">
+                <div class="row justify-content-center mb-5 text-center">
+                    <div class="col-lg-6">
+                        <span class="badge bg-primary-subtle text-primary px-3 py-1 rounded-pill mb-2 fw-semibold">Contact</span>
+                        <h2 class="fw-bold">Get In Touch</h2>
+                        <p class="text-muted">Have a project in mind or want to collaborate? Send a message below.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card border-0 shadow-sm rounded-4 p-4 p-lg-5 bg-body">
+                            <div class="d-flex justify-content-center gap-3 fs-4 mb-4">
+                                <a href="#" class="text-secondary social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                                <a href="#" class="text-secondary social-icon" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                                <a href="#" class="text-secondary social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label fw-semibold small">Your Name</label>
+                                    <input type="text" class="form-control rounded-3 py-2" id="name" required placeholder="Jane Doe">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-semibold small">Email Address</label>
+                                    <input type="email" class="form-control rounded-3 py-2" id="email" required placeholder="jane@example.com">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="message" class="form-label fw-semibold small">Message</label>
+                                    <textarea class="form-control rounded-3 py-2" id="message" rows="4" required placeholder="Tell me about your project..."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100 py-3 rounded-pill fw-semibold">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 border-top border-secondary">
+        <div class="container text-center">
+            <p class="mb-0 small text-light opacity-75">&copy; 2026 Systems Developer Portfolio. Built with Bootstrap 5 &amp; Semantic HTML5.</p>
         </div>
-      </div>
-    </nav>
-  </header>
+    </footer>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero-section d-flex align-items-center justify-content-center text-center text-white position-relative">
-    <div class="hero-overlay"></div>
-    <div class="container position-relative z-1 px-3">
-      <h1 class="display-3 fw-bold mb-3">I am <span class="highlight-text">Your Name</span></h1>
-      <p class="lead fs-3 text-light opacity-90 fw-normal">Systems Developer &amp; Web Designer</p>
-      <a href="#projects" class="btn btn-primary btn-lg mt-3 px-4 py-2 rounded-pill">View My Work</a>
-    </div>
-  </section>
-
-  <!-- Main Content -->
-  <main id="main-content">
-    
-    <!-- About Me Section -->
-    <section id="about" class="py-5">
-      <div class="container py-4">
-        <div class="card border-0 shadow-sm rounded-4 overflow-hidden about-card">
-          <div class="card-body p-4 p-md-5">
-            <div class="row g-4 align-items-center">
-              
-              <!-- Left Column: Profile & Info -->
-              <div class="col-lg-5 text-center text-lg-start border-end-lg pe-lg-4">
-                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400" alt="Profile photo of Your Name" class="rounded-circle img-fluid mb-4 profile-img shadow-sm">
-                
-                <ul class="list-unstyled mb-4 text-secondary">
-                  <li class="mb-2"><strong class="text-body">Name:</strong> Puleng Ramatsa</li>
-                  <li class="mb-2"><strong class="text-body">Profile:</strong> Systems Developer</li>
-                  <li class="mb-2"><strong class="text-body">Phone:</strong> +27 66 538 8298</li>
-                  <li class="mb-2"><strong class="text-body">Email:</strong> pulengramzeyyy@gmail.com</li>
-                </ul>
-
-                <h2 class="h6 text-uppercase fw-bold text-muted mb-3 tracking-wide">Technical Skills</h2>
-                <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start">
-                  <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill fs-6">HTML5</span>
-                  <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill fs-6">CSS3</span>
-                  <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill fs-6">Bootstrap 5</span>
-                  <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill fs-6">Python</span>
-                  <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill fs-6">Git</span>
-                </div>
-              </div>
-
-              <!-- Right Column: Bio -->
-              <div class="col-lg-7 ps-lg-4">
-                <div class="d-inline-block px-3 py-1 rounded-pill highlight-label mb-3 fw-semibold">
-                  About me
-                </div>
-                <h2 class="display-6 fw-bold mb-4">Designing robust systems with responsive layouts.</h2>
-                <p class="lead fs-6 text-secondary lh-lg mb-0">
-                  I am a passionate Systems Developer dedicated to creating scalable, high-performance web solutions. Specialized in front-end architecture, responsive design, and intuitive user experiences, I bridge technical code with sleek modern aesthetics to solve real-world problems efficiently.
-                </p>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="py-5 bg-surface">
-      <div class="container py-4">
-        
-        <div class="text-center mb-5">
-          <div class="d-inline-block px-3 py-1 rounded-pill highlight-label mb-2 fw-semibold">
-            Portfolio
-          </div>
-          <h2 class="display-6 fw-bold">Featured Works</h2>
-        </div>
-
-        <div class="row g-4">
-          
-          <!-- Card 1: Tesla -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
-              <img src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&q=80&w=600" class="card-img-top project-banner" alt="Tesla website clone showcase thumbnail">
-              <div class="card-body d-flex flex-column p-4">
-                <h3 class="h5 card-title fw-bold mb-1">Tesla Landing Page</h3>
-                <p class="small text-muted mb-3">Built with HTML5 &amp; CSS3</p>
-                <p class="card-text text-secondary small mb-4 flex-grow-1">A pixel-perfect, responsive replica of the Tesla landing page emphasizing clean layout and minimal aesthetics.</p>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                  <a href="#" class="btn btn-primary rounded-pill px-3 flex-grow-1">View Website</a>
-                  <a href="#" class="btn btn-outline-secondary rounded-circle icon-btn" aria-label="View source code for Tesla project">
-                    <i class="bi bi-code-slash"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 2: Netflix -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
-              <img src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?auto=format&fit=crop&q=80&w=600" class="card-img-top project-banner" alt="Netflix interface clone showcase thumbnail">
-              <div class="card-body d-flex flex-column p-4">
-                <h3 class="h5 card-title fw-bold mb-1">Netflix Stream UI</h3>
-                <p class="small text-muted mb-3">Built with HTML &amp; Bootstrap 5</p>
-                <p class="card-text text-secondary small mb-4 flex-grow-1">Custom streaming service interface featuring responsive video grids, hero highlights, and media badges.</p>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                  <a href="#" class="btn btn-primary rounded-pill px-3 flex-grow-1">View Website</a>
-                  <a href="#" class="btn btn-outline-secondary rounded-circle icon-btn" aria-label="View source code for Netflix project">
-                    <i class="bi bi-code-slash"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 3: YouTube -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
-              <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=600" class="card-img-top project-banner" alt="YouTube video platform layout thumbnail">
-              <div class="card-body d-flex flex-column p-4">
-                <h3 class="h5 card-title fw-bold mb-1">YouTube Dashboard</h3>
-                <p class="small text-muted mb-3">Built with HTML, CSS &amp; Flexbox</p>
-                <p class="card-text text-secondary small mb-4 flex-grow-1">A video streaming platform web app layout featuring side navigation, filter pills, and adaptive video tiles.</p>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                  <a href="#" class="btn btn-primary rounded-pill px-3 flex-grow-1">View Website</a>
-                  <a href="#" class="btn btn-outline-secondary rounded-circle icon-btn" aria-label="View source code for YouTube project">
-                    <i class="bi bi-code-slash"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 4: Dev-Portal -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
-              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=600" class="card-img-top project-banner" alt="Developer portal dashboard layout thumbnail">
-              <div class="card-body d-flex flex-column p-4">
-                <h3 class="h5 card-title fw-bold mb-1">Dev Hub Portal</h3>
-                <p class="small text-muted mb-3">Built with HTML &amp; Bootstrap 5</p>
-                <p class="card-text text-secondary small mb-4 flex-grow-1">A centralized dashboard designed for developers to manage codebase documentation and track active APIs.</p>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                  <a href="#" class="btn btn-primary rounded-pill px-3 flex-grow-1">View Website</a>
-                  <a href="#" class="btn btn-outline-secondary rounded-circle icon-btn" aria-label="View source code for Dev Hub project">
-                    <i class="bi bi-code-slash"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 5: Analytics App -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
-              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600" class="card-img-top project-banner" alt="SaaS analytics dashboard interface thumbnail">
-              <div class="card-body d-flex flex-column p-4">
-                <h3 class="h5 card-title fw-bold mb-1">SaaS Metric Tracker</h3>
-                <p class="small text-muted mb-3">Built with HTML &amp; CSS Grid</p>
-                <p class="card-text text-secondary small mb-4 flex-grow-1">A clean business analytics panel displaying key performance indicators, charts, and transaction feeds.</p>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                  <a href="#" class="btn btn-primary rounded-pill px-3 flex-grow-1">View Website</a>
-                  <a href="#" class="btn btn-outline-secondary rounded-circle icon-btn" aria-label="View source code for SaaS Tracker project">
-                    <i class="bi bi-code-slash"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 6: Task System -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden project-card">
-              <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=600" class="card-img-top project-banner" alt="Task management app interface thumbnail">
-              <div class="card-body d-flex flex-column p-4">
-                <h3 class="h5 card-title fw-bold mb-1">Task Manager UI</h3>
-                <p class="small text-muted mb-3">Built with HTML &amp; Custom CSS</p>
-                <p class="card-text text-secondary small mb-4 flex-grow-1">An intuitive productivity tool layout with card categorization, progress indicators, and status tags.</p>
-                <div class="d-flex align-items-center justify-content-between gap-2">
-                  <a href="#" class="btn btn-primary rounded-pill px-3 flex-grow-1">View Website</a>
-                  <a href="#" class="btn btn-outline-secondary rounded-circle icon-btn" aria-label="View source code for Task Manager project">
-                    <i class="bi bi-code-slash"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
-      <div class="container py-4">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-8 text-center">
-            
-            <div class="d-inline-block px-3 py-1 rounded-pill highlight-label mb-3 fw-semibold">
-              Let’s connect
-            </div>
-            <p class="lead text-secondary mb-4">Have a project in mind or want to discuss systems development opportunities? Send me a message!</p>
-
-            <!-- Social Links Row -->
-            <div class="d-flex justify-content-center gap-3 mb-5">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn d-flex align-items-center justify-content-center text-decoration-none" aria-label="Visit Instagram profile">
-                <i class="bi bi-instagram fs-5"></i>
-              </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn d-flex align-items-center justify-content-center text-decoration-none" aria-label="Visit GitHub profile">
-                <i class="bi bi-github fs-5"></i>
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn d-flex align-items-center justify-content-center text-decoration-none" aria-label="Visit LinkedIn profile">
-                <i class="bi bi-linkedin fs-5"></i>
-              </a>
-            </div>
-
-            <!-- Contact Form -->
-            <form class="text-start bg-body p-4 p-md-5 rounded-4 border shadow-sm">
-              <div class="row g-3">
-                <div class="col-12 col-md-6">
-                  <label for="name" class="form-label fw-medium">Name</label>
-                  <input type="text" id="name" class="form-control form-control-lg fs-6" placeholder="Your Full Name" required>
-                </div>
-                <div class="col-12 col-md-6">
-                  <label for="email" class="form-label fw-medium">Email Address</label>
-                  <input type="email" id="email" class="form-control form-control-lg fs-6" placeholder="name@example.com" required>
-                </div>
-                <div class="col-12">
-                  <label for="subject" class="form-label fw-medium">Subject</label>
-                  <input type="text" id="subject" class="form-control form-control-lg fs-6" placeholder="Project Inquiry / Job Opportunity" required>
-                </div>
-                <div class="col-12">
-                  <label for="message" class="form-label fw-medium">Message</label>
-                  <textarea id="message" rows="5" class="form-control form-control-lg fs-6" placeholder="Write your message here..." required></textarea>
-                </div>
-                <div class="col-12 text-center mt-4">
-                  <button type="submit" class="btn btn-primary btn-lg px-5 rounded-pill shadow-sm">Send Message</button>
-                </div>
-              </div>
-            </form>
-
-          </div>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer-bg text-light py-4 text-center">
-    <div class="container">
-      <p class="small text-white-50 mb-0">Developed by Your Name using Bootstrap, for portfolio purposes.</p>
-    </div>
-  </footer>
-
+    <!-- Bootstrap JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
